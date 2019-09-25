@@ -1,0 +1,47 @@
+body
+{
+  font-family: Georgia,"Comic Sans MS","Courrier New",sans-serif;
+}
+header
+{
+  font-size: 0.8em;
+  color: #444;
+}
+#main
+{
+  display: flex;
+  justify-content: flex-end;
+}
+.menu
+{
+  padding: 5px;
+  margin: 5px;
+}
+.genre
+{
+  width:20px;
+height:20px;
+}
+.google
+{
+  padding: 15px;
+  margin: -70px;
+  width: 300px;
+  height: 150px;
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+.txt
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
